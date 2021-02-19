@@ -1,0 +1,4 @@
+main: dev.risas.hcaddons.HCAddons
+name: HCAddons
+version: ${project.version}
+author: Risas
