@@ -1,0 +1,23 @@
+# SUPPORT CONFIGURATION
+SUPPORT-MESSAGES:
+  ALREADY: "&cYou already support a partner."
+  SUPPORT: "&aCongratulations, you have supported <partner> and received the rewards."
+
+SUPPORT-MENU:
+  TITLE: "Support your favourite partner"
+  SIZE: 3
+  PARTNERS:
+    Risas:
+      ICON:
+        DISPLAYNAME: "&d&l<partner>"
+        DESCRIPTION:
+          - "&6&m---*----------*---"
+          - " &7Rewards:"
+          - "   &ex1 Partner Key."
+          - "   &ex5 Lives."
+          - "   &ex1 PandaHub."
+          - "&6&m---*----------*---"
+        SLOT: 13
+      COMMANDS:
+        - "cr givekey <player> Partner 1"
+        - "lives give <player> 5"
