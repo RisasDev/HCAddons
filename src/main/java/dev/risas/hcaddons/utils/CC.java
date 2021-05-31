@@ -19,11 +19,6 @@ public class CC {
     public static List<String> translate(List<String> in) {
         return in.stream().map(CC::translate).collect(Collectors.toList());
     }
-
-    public static String strip(String in) {
-        return ChatColor.stripColor(in);
-    }
-
     public static void sender(CommandSender sender, String in) {
         sender.sendMessage(translate(in));
     }
